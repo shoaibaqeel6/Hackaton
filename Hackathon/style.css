@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.nav{
+    background-color: #03599b;
+    z-index: 100;
+    top: 0;
+}
+
+
+.blue{
+    position: absolute;
+    top: 107px;
+    left: 210px;
+}
+.drop{
+    width: 100px;
+}
+.bed{
+    width: 100px;
+}
+.bath{
+    width: 100px;
+}
+.sec{
+    width: 100px;
+}
+.info{
+    height: 600px;
+    background-image: url(./img/h1_hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.info::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(51, 51, 51, 0.281);
+    z-index: 2;
+}
+
+.mag{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.specialpadding{
+    padding: 100px 0px;  
+}
+.picture{
+    background-image: url(./img/section-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+
+.cus-card{
+    overflow: hidden;
+}
+
+.cus-card img {
+    width: 100%;
+}
+
+.picture-card{
+ overflow: hidden;
+ transition:1s ease-in-out;
+}
+
+.card-pic{
+    overflow: hidden;
+    transition: 2s;
+    
+}
+
+.picture-card:hover .card-pic img{
+    scale: 1.15;
+    transition: 1s;
+    
+}
+.cus-icons{
+    width: 30px;
+    height: 30px;
+    background-color: #004274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+.over{
+    overflow: hidden;
+}
+.cus-icon-contain{
+    position: absolute;
+    z-index: 8;
+    bottom:-100;
+    width: 100%;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.over:hover .cus-icon-contain{
+    bottom: 10px;
+    transition: 1s;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.property{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.back{
+    /* background-image: url(./img/subscribe-img.jpg); */
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: right;
+    
+}
+.file{
+    width: 553px;
+    height: 350px;
+}
+.foot{
+    list-style-type: none;
+}
+.number{
+    text-decoration: underline;
+}
